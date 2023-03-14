@@ -9,6 +9,9 @@ public class Atendimento {
         this.dataHorarioAtendimento = dataHorarioAtendimento;
         this.valor = valor;
     }
+    public void cadastrarProntuario(String prontuario) {
+        this.prontuario = prontuario;
+    }
     @Override
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy 'at' HH:mm:ss");
